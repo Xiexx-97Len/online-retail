@@ -1,0 +1,470 @@
+@charset "utf-8";
+/* 广告样式 */
+#header {
+  /* 导航部分 */
+  /* search部分 */
+  /* .tabbar {
+    background-color: #ccc;
+		height: 41px;
+		line-height: 41px;
+    .tabbar-left {
+      float: left;
+      width: 164px;
+      height: 41px;
+      background: linear-gradient(90deg, red, #ff3264);
+      overflow: hidden;
+      .tabbar-category {
+        width: 164px;
+				height: 12px;
+				position: relative;
+				top: 50%;
+				transform: translate(0 ,-50%); 
+
+        .lineicon {
+          display: inline-block;
+          margin: 0 24px 0 15px;
+          i {
+						width: 15px;
+						height: 0;
+            border-top: 2px solid white;
+            margin-bottom: 3px;
+            display: block;
+					}
+					i:last-child{
+						margin-bottom: 03px;
+					}
+				}
+				span{
+					color: white;
+					font-size: 14px;
+				}
+      }
+		}
+		.tabbar-right{
+			float: right;
+			ul{
+				li{
+					display: inline-block;
+					a{
+						color: black;
+					}
+				}
+			}
+		}
+	} */
+  /*   .tabbar {
+    height: 41px;
+    line-height: 41px;
+    background-color: #ccc;
+    .tabbar-left {
+      float: left;
+      width: 164px;
+      height: 41px;
+      background-color: red;
+      .tabbar-category {
+        height: 12px;
+        background-color: blue;
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        .lineicon{
+					display: inline-block;
+					i {
+						width: 15px;
+						height: 0;
+						border-top: 2px solid white;
+						margin-bottom: 3px;
+						display: block;
+					}
+				}
+				span{
+					font-size: 12px;
+					color: black;
+					float: left;
+				}
+      }
+    }
+	} */
+}
+#header a {
+  font-size: 16px;
+  color: white;
+}
+#header .ad {
+  overflow: hidden;
+  min-width: 1100px;
+}
+#header .ad a img {
+  width: 100%;
+}
+#header .nav {
+  background-color: black !important;
+  min-width: 1100px;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  /*&::after {
+      content: "";
+      clear: both;
+      display: block;
+    }*/
+}
+#header .nav .wrap {
+  color: white;
+}
+#header .nav .wrap #nav-left {
+  float: left;
+}
+#header .nav .wrap #nav-left span {
+  font-size: 17px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+#header .nav .wrap #nav-left .account {
+  display: inline-block;
+}
+#header .nav .wrap #nav-left .account a {
+  margin-left: 15px;
+}
+#header .nav .wrap #nav-left .account a:hover {
+  color: red;
+}
+#header .nav .wrap #nav-right {
+  float: right;
+}
+#header .nav .wrap #nav-right #group2,
+#header .nav .wrap #nav-right #group1 {
+  float: left;
+}
+#header .nav .wrap #nav-right a {
+  float: left;
+}
+#header .nav .wrap #nav-right #group1 a {
+  margin-right: 15px;
+}
+#header .nav .wrap #nav-right #group2 {
+  margin-left: 10px;
+}
+#header .nav .wrap #nav-right #group2 a {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  text-align: center;
+}
+#header .nav .wrap #nav-right #group2 a:hover {
+  color: red;
+  background-color: white;
+  /* */
+  /* &span{
+								border-color: transparent transparent #fff transparent; 
+							} */
+}
+#header .nav .wrap #nav-right #group2 span {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  /*  border-style: dashed dashed solid dashed;
+            border-width: 5px;
+						border-color: transparent transparent #f00 transparent; */
+  border: 6px solid #fff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: relative;
+  top: 5px;
+  /**/
+  left: 3px;
+  /*border-top: 8px solid #f00;
+							border-left: 8px solid transparent;
+							background-color: transparent;
+							 transform: rotate(-90deg); */
+  transition: transform 0.3s ease-in;
+  transform-origin: center 5px;
+  /**/
+}
+#header .nav .wrap #nav-right #group2 a:hover span {
+  border-top-color: red;
+  transform: rotate(180deg);
+  /**/
+}
+#header .search {
+  height: 110px;
+  /* background-color: #ccc; */
+  clear: both;
+  background: white;
+}
+#header .search .wrap {
+  height: 110px;
+}
+#header .search .search-logo {
+  height: 110px;
+  background-color: #f00;
+  position: relative;
+  display: inline-block;
+}
+#header .search .search-logo img {
+  height: 80px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+#header .search .search-find {
+  position: relative;
+  float: right;
+  width: 403px;
+  border: 2px solid #ff2337;
+  padding: 6px 39px 6px 30px;
+  top: 50%;
+  /**/
+  transform: translate(0, -50%);
+  margin-right: 30px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+#header .search .search-find i {
+  width: 14px;
+  height: 14px;
+  background: url("../image/sprite.png") -466px -667px;
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+#header .search .search-find input[type="text"] {
+  width: 400px;
+  height: 24px;
+}
+#header .search .search-find input[type="text"]::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+#header .search .search-find span {
+  position: absolute;
+  top: -2px;
+  /* 因为想对元素存在边框,是相对下边框定位的,所以如果给了0,会有点偏差的 */
+  width: 60px;
+  height: 40px;
+  background-color: #f00;
+  border-radius: 40px;
+  background-image: url("../image/search-logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#header #top {
+  /* tabbar样式 */
+  /* 轮播图样式 */
+}
+#header #top .tabbar {
+  height: 39px;
+  line-height: 39px;
+  border-bottom: 2px solid #ccc;
+  background-color: white;
+  /* background-color: #ff0; */
+}
+#header #top .tabbar .category {
+  float: left;
+  width: 164px;
+  background: linear-gradient(90deg, red, #ff3264);
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
+#header #top .tabbar .category .lineicon {
+  margin-left: 20px;
+}
+#header #top .tabbar .category span {
+  margin-left: 20px;
+}
+#header #top .tabbar .category .categories {
+  width: 164px;
+  position: absolute;
+  z-index: 99;
+}
+#header #top .tabbar .category .categories li {
+  height: 39px;
+  line-height: 39px;
+  background: linear-gradient(90deg, red, #ff3264);
+  padding: 0 3px 0 2px;
+  /* border-bottom: 1px solid red; */
+}
+#header #top .tabbar .category .categories li a {
+  display: block;
+  height: 38px;
+  border-top: 1px solid #ff5160;
+  font-size: 15px;
+  color: #fff;
+  /* position: relative; */
+}
+#header #top .tabbar .category .categories li a:hover {
+  background-color: #fff;
+}
+#header #top .tabbar .category .categories li a:hover span {
+  color: #ff3264;
+}
+#header #top .tabbar .category .categories li a:hover img {
+  display: none;
+}
+#header #top .tabbar .category .categories li a:hover img.active {
+  display: inline-block;
+  /* position: relative;
+									left: -8px; */
+}
+#header #top .tabbar .category .categories li a img {
+  width: 20px;
+  height: 20px;
+  /* position: absolute;
+                top: 0;
+                bottom: 0;
+								margin: auto 0; 可以实现居中,但没必要,微调好了*/
+  margin-left: 15px;
+  position: relative;
+  bottom: 2px;
+}
+#header #top .tabbar .category .categories li a .active {
+  display: none;
+}
+#header #top .tabbar .list {
+  float: left;
+  margin-left: 16px;
+}
+#header #top .tabbar .list li {
+  float: left;
+  margin-left: 10px;
+}
+#header #top .tabbar .list li a {
+  display: inline-block;
+  line-height: 40px;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 12px;
+}
+#header #top .tabbar .list li a:hover {
+  color: #ff1e32;
+}
+#header #top .tabbar .list li a.active {
+  color: red;
+}
+#header #top #banner {
+  overflow: hidden;
+  min-width: 1100px;
+  position: relative;
+  /* 毛玻璃 */
+}
+#header #top #banner a.swiper {
+  /* display: inline-block; */
+}
+#header #top #banner a.swiper ul {
+  position: relative;
+  width: 100%;
+  height: 506px;
+}
+#header #top #banner a.swiper ul li {
+  position: absolute;
+  width: 100%;
+  height: 506px;
+  transition: z-index 0.7s linear;
+}
+#header #top #banner a.swiper ul li img {
+  transform: translate(-50%);
+  margin-left: 50%;
+  /* z-index: -9; */
+}
+#header #top #banner a.swiper ul .active {
+  z-index: 1;
+}
+#header #top #banner a.swiper:hover .control {
+  display: block;
+}
+#header #top #banner a.swiper span.control {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+  height: 68px;
+  display: none;
+  z-index: 9;
+}
+#header #top #banner a.swiper span.control i {
+  width: 34px;
+  height: 68px;
+  background-image: url("../image/sprite.png");
+}
+#header #top #banner a.swiper span.control .prev {
+  float: left;
+  background-position: -625px -68px;
+  margin-left: 174px;
+}
+#header #top #banner a.swiper span.control .next {
+  float: right;
+  background-position: -670px -67px;
+}
+#header #top #banner a.swiper > .wrap {
+  position: relative;
+}
+#header #top #banner a.swiper > .wrap #dots {
+  position: absolute;
+  width: 1100px;
+  height: 60px;
+  /*background-color: blue; */
+  bottom: 60px;
+  margin-left: 180px;
+  z-index: 9;
+}
+#header #top #banner a.swiper > .wrap #dots i {
+  display: inline-block;
+  background-color: #fff;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin: 50px 0 0 5px;
+  /*float: left; */
+  transition: background-color 0.7s linear;
+}
+#header #top #banner a.swiper > .wrap #dots .active {
+  background-color: red;
+}
+#header #top #banner .service {
+  height: 40px;
+  line-height: 40px;
+  /* width: 100%; */
+  /* background-color: rgba(0,0,0,.5); */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+#header #top #banner .service .blur {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url("../image/transform3.jpg") center bottom;
+  filter: blur(10px);
+  /* z-index: -1; */
+  /* background-color: #fff; */
+}
+#header #top #banner .service .service-left {
+  position: relative;
+  z-index: 1;
+}
+#header #top #banner .service .service-left a {
+  display: block;
+  width: 100px;
+  float: left;
+  margin-right: 40px;
+}
+#header #top #banner .service .service-left a img {
+  width: 25px;
+  height: 25px;
+}
+#header #top #banner .service .service-left a span {
+  margin-left: 10px;
+}

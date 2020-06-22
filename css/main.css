@@ -1,0 +1,571 @@
+#main {
+  /* 新人部分 */
+  /* 热门产品 */
+  /* 特色优选 */
+}
+#main .new-people {
+  width: 100%;
+}
+#main .new-people .bgi-entrances {
+  height: 308px;
+  background-image: url("../image/main/imgwrap.png");
+  background-position: center center;
+}
+#main .new-people .bgi-entrances a {
+  display: block;
+  width: 1100px;
+  height: 308px;
+  margin: 0 auto;
+}
+#main #hotPro {
+  width: 100%;
+  margin-top: 20px;
+}
+#main #hotPro .wrap {
+  border-top: 1px solid #e9e9e9;
+}
+#main #hotPro .wrap h1.hotPro-titl {
+  padding-top: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+#main #hotPro .wrap h1.hotPro-titl span {
+  font-size: 14px;
+  color: #999999;
+  margin-left: 5px;
+}
+#main #hotPro .wrap .hotPro-intro {
+  width: 1100px;
+  height: 355px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l {
+  float: left;
+  width: 218px;
+  height: 335px;
+  border-right: 1px solid #e9e9e9;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t {
+  position: relative;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t img {
+  width: 100%;
+  height: 100%;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t .sweep {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 100%;
+  height: 32px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t .sweep a {
+  width: 28px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 32px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t .sweep .l {
+  float: left;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-t .sweep .r {
+  float: right;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .line {
+  height: 3px;
+  background-color: #333;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .line .process {
+  height: 3px;
+  width: 33%;
+  background-color: #ff1e32;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-b {
+  display: block;
+  width: 219px;
+  height: 136px;
+  background: black;
+  text-align: center;
+  overflow: hidden;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-b h2 {
+  color: #fff;
+  margin-top: 45px;
+  font-size: 20px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-l .hotPro-l-b span {
+  color: #fff;
+  font-size: 14px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r {
+  width: 881px;
+  height: 355px;
+  float: right;
+  border-top: 1px solid #e9e9e9;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li {
+  position: relative;
+  width: 219px;
+  height: 177px;
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  float: left;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li:hover .active {
+  opacity: 1;
+  /* transition: display 1s linear; 无效 */
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li:hover .desc {
+  display: none;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li:hover img {
+  transform: scale(0.7);
+  /*margin-top: 8px; */
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li div img {
+  display: block;
+  margin: 15px auto;
+  transition: transform 0.4s linear;
+  transform-origin: center 0;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li div p {
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li .active {
+  box-sizing: border-box;
+  width: 220px;
+  height: 177px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li .active a.focus {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  width: 52px;
+  height: 20px;
+  border: 1px solid #999;
+  line-height: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li .active .info {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li .active .info a {
+  display: inline-block;
+  width: 76px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  border-radius: 18px;
+  border: 2px solid #ff1e23;
+}
+#main #hotPro .wrap .hotPro-intro .hotPro-r li .active .info p {
+  color: #ccc;
+  font-size: 12px;
+}
+#main #j_spec {
+  margin-top: 30px;
+}
+#main #j_spec .wrap .spec {
+  display: flex;
+  width: 1100px;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  /**/
+}
+#main #j_spec .wrap .spec .spec_l,
+#main #j_spec .wrap .spec .spec_r {
+  height: 360px;
+  width: 540px;
+  background-color: #fff;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t,
+#main #j_spec .wrap .spec .spec_r .spec_left-t,
+#main #j_spec .wrap .spec .spec_l .spec_right-t,
+#main #j_spec .wrap .spec .spec_r .spec_right-t {
+  padding: 10px 0 0 10px;
+  height: 60px;
+  line-height: 60px;
+  /* */
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t p,
+#main #j_spec .wrap .spec .spec_r .spec_left-t p,
+#main #j_spec .wrap .spec .spec_l .spec_right-t p,
+#main #j_spec .wrap .spec .spec_r .spec_right-t p {
+  float: left;
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+  padding-right: 10px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t i,
+#main #j_spec .wrap .spec .spec_r .spec_left-t i,
+#main #j_spec .wrap .spec .spec_l .spec_right-t i,
+#main #j_spec .wrap .spec .spec_r .spec_right-t i {
+  width: 16px;
+  height: 16px;
+  background-image: url("../image/main/sprite.png");
+  display: inline-block;
+  background-position: -16px 0;
+  /* */
+  position: relative;
+  top: 4px;
+  left: -1px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t ul {
+  float: right;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t ul li {
+  display: inline-block;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t ul li a {
+  display: inline-block;
+  width: 28px;
+  height: 19px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #999;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t ul li a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+#main #j_spec .wrap .spec .spec_l .spec_left-t ul .active {
+  border-bottom: 2px solid red;
+  color: red;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b {
+  margin: 10px 10px 0 10px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l {
+  width: 160px;
+  height: 265px;
+  float: left;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+  background-color: rgba(238, 238, 238, 0.5);
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l:hover img {
+  opacity: 0.8;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l:hover .discount p {
+  color: #c81623;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l h2 {
+  width: 90px;
+  height: 24px;
+  background-image: url(../image/main/bgc.png);
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l img {
+  margin: 15px 8px 10px 8px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount {
+  text-align: center;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount p {
+  display: inline-block;
+  width: 150px;
+  height: 19px;
+  line-height: 19px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount span {
+  color: #ccc;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount .dis_price {
+  display: block;
+  font-size: 18px;
+  margin: 0 2px;
+  color: #e1251b;
+  font-weight: 700;
+  line-height: 16px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount .dis_price span.dis_price_t {
+  font-size: 12px;
+  color: #e1251b;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount .dis_price .dis_del {
+  color: #999;
+  font-size: 12px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount .dis_hot {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-l .discount .dis_hot .dis_hot_count {
+  color: #e1251b;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r {
+  display: flex;
+  /**/
+  width: 350px;
+  height: 265px;
+  float: right;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item {
+  width: 170px;
+  height: 110px;
+  /*  */
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item a:hover img {
+  opacity: 0.8;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item a:hover .spec_1eft-b-r_right .spec_1eft-b-r_right-title {
+  color: #e1251b;
+  font-weight: 700;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_left {
+  width: 84px;
+  height: 110px;
+  position: relative;
+  float: left;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_left img {
+  width: 84px;
+  height: 84px;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_left span {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 84px;
+  height: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  bottom: 12px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right {
+  width: 80px;
+  height: 110px;
+  float: right;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right span.spec_1eft-b-r_right-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #333;
+  font-size: 12px;
+  line-height: 16px;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right .spec_1eft-b-r_right-pri {
+  width: 100%;
+  height: 40px;
+  margin: 5px 0 8px 0;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right .spec_1eft-b-r_right-pri span.spec-r_right-pri_low {
+  font-size: 14px;
+  line-height: 16px;
+  color: #e1251b;
+  font-weight: 700;
+  display: block;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right .spec_1eft-b-r_right-pri span.spec-r_right-pri_low .spec-r_right-pri_spec {
+  font-size: 12px;
+  margin-left: 6px;
+  color: #e1251b;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right .spec_1eft-b-r_right-pri .spec-r_right-pri_pre {
+  margin-left: 6px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: line-through;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right span.spec-r_right-pri_remained {
+  font-size: 12px;
+  line-height: 16px;
+  color: #999;
+}
+#main #j_spec .wrap .spec .spec_l .spec_1eft-b .spec_1eft-b-r .spec_1eft-b-r_item .spec_1eft-b-r_right span.spec-r_right-pri_remained .spec-pri_remained-num {
+  color: #e1251b;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b {
+  width: 520px;
+  height: 280px;
+  margin: 10px 10px 0 10px;
+  /**/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro,
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods {
+  width: 250px;
+  height: 265px;
+  /* background-color: rgba(#999, 0.6); */
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(221, 168, 198, 0.05), rgba(91, 15, 55, 0.05));
+  position: relative;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro:hover .spec-pro-mainP {
+  opacity: 0.8;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro img.spec-b_l-pro-img {
+  width: 70px;
+  height: 35px;
+  display: block;
+  margin: 15px auto 0;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro h3 {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  margin-top: 6px;
+  font-weight: 800;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic {
+  position: relative;
+  margin-bottom: 15px;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic .spec-pro-pic-dec {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+  margin-bottom: 13px;
+  margin-top: 1px;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic .spec-pro-pic-line {
+  margin-left: 8px;
+  color: #666;
+  font-size: 12px;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic .spec-pro-pic-line::before {
+  content: " ";
+  width: 1px;
+  height: 10px;
+  /* transform: translateY(-50%); */
+  background-color: rgba(102, 102, 102, 0.4);
+  position: absolute;
+  left: 57%;
+  top: 18%;
+  /* */
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic .spec-pro-pic-line .spec-pro-pic-day {
+  display: inline-block;
+  color: #666;
+  font-size: 12px;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro .spec-pro-pic .spec-pro-pic-line .spec-pro-pic-day span {
+  font-weight: 700;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro img {
+  width: 130px;
+  height: 130px;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_l-pro img::after {
+  content: "";
+  background: linear-gradient(180deg, rgba(221, 168, 198, 0.05), rgba(91, 15, 55, 0.05));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a {
+  display: inline-block;
+  width: 120px;
+  height: 95px;
+  text-align: center;
+  /* box-sizing: border-box;*/
+  position: relative;
+  /* background-color: lightgoldenrodyellow; */
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a:hover .spec-b_r-goods-img img {
+  opacity: 0.8;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a:hover h3 {
+  color: #e1251b;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a div.spec-b_r-goods-img {
+  position: relative;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a div.spec-b_r-goods-img img {
+  width: 100px;
+  height: 50px;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a div.spec-b_r-goods-img .overlap {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 0;
+  top: 0;
+  line-height: 50px;
+  opacity: 0;
+  visibility: hidden;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a h3 {
+  font-size: 12px;
+  margin-top: 6px;
+  font-weight: 500;
+  color: #666;
+}
+#main #j_spec .wrap .spec .spec_r .spec_right-b .spec-b_r-goods a h3::after {
+  position: absolute;
+  width: 1px;
+  height: 60px;
+  right: 0;
+  /* top: 50%; */
+  margin-top: -50px;
+  /*  */
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#070404), color-stop(#eeeeee), to(white));
+  background: linear-gradient(180deg, white, #eeeeee, #eeeeee, white);
+  content: "";
+}
